@@ -1,0 +1,309 @@
+@import
+	url('https://fonts.googleapis.com/css2?family=Gulzar&family=Kdam+Thmor+Pro&family=Lato:ital,wght@1,300&family=Montserrat:ital,wght@1,500&family=Nunito+Sans:wght@200&family=Open+Sans:ital@1&family=Roboto:wght@300&display=swap')
+	;
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Gulzar&family=Kdam+Thmor+Pro&family=Lato:ital,wght@1,300&family=Montserrat:ital,wght@1,500&family=Nunito+Sans:wght@200&family=Open+Sans:ital@1&family=Roboto:wght@300&display=swap')
+	;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gulzar', serif;
+font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+  
+}
+
+ a,a:hover{
+    text-decoration: none;
+    color: rgb(235, 239, 241);
+ }
+
+ ul{
+    list-style: none;
+ }
+ li{
+    display: inline-block;
+ }
+
+ .header{
+    width:100%;
+    height:100vh;
+    background-color: #26284e;
+ }
+ .header .nav-bar{
+    width:90%;
+    height: 80px;
+    margin:auto;
+    color:cyan;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+ }
+
+ .header .nav-bar .logo{
+    margin-left: 20px;
+ }
+
+ .header .nav-bar .logo a{
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+ }
+
+ .header .nav-bar .menu ul li{
+    margin-right: 30px;
+ }
+ .header .nav-bar .menu ul li a{
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 8px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    transition: all 0.5s;
+    opacity: 0.56;
+ }
+ 
+ .header .nav-bar .menu ul li a:hover{
+    opacity :1;
+ }
+.content{
+   font-size: 50px;
+   font-weight: 800;
+   margin: 12px;
+   padding-bottom: 20%;
+   padding: 50px;
+   color: white;
+}
+.content .card{
+   font-size: 25px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color:white;
+}
+.content .card .row{
+   font-size: 90px;
+   font-weight: 80;
+   font-family: Arial, Helvetica, sans-serif;
+   padding-left: 4%;
+   padding-top: 0%;
+   font-family: 'Gulzar', serif;
+font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+   
+}
+.content .card p{
+font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+ padding: left;
+font-weight: 40;
+color: white;
+
+}
+.content .card .car {
+   padding-right: 10%;
+   align-items : right;
+   float: right;
+   margin: 0 0  0 49px;
+   margin: -10%;
+   
+}
+.mySlides {
+	display: none;
+}
+
+.button, button {
+	font-family: "Montserrat", 'Segoe UI', Tahoma, Geneva, Verdana,
+		sans-serif;
+	font-weight: 700;
+	font-size: 28px;
+	border-radius: 7px;
+	display: inline-block;
+	cursor: pointer;
+	background-color: #0264a1;
+	text-decoration: none;
+}
+
+.button, button:hover {
+	color: rgb(0, 0, 0);
+	background-color: rgb(107, 198, 226);
+	transition: 0.2s;
+}
+
+.para {
+	font-size: 19px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-weight: 800;
+	padding-left: 10%;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=number], input[type=date]
+	{
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+	font-color: black;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus, input[type=number]:focus,
+	input[type=date]:focus {
+	background-color: #ddd;
+	outline: none;
+}
+
+/* Set a style for all buttons */
+/* button {
+  background-color: #0489aa;
+  color: rgb(255, 255, 255);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 30px;
+}
+
+button:hover {
+  opacity:1;
+} */
+.cancelbtn {
+	background-color: #e6281a;
+}
+
+.cancelbtn:hover {
+	background-color: #f16c63;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+	float: left;
+	width: 30%;
+	justify-content: space-between;
+}
+
+/* Add padding to container elements */
+.container {
+	padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 50%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: #edeff3;
+	padding-top: 50px;
+	justify-content: space-between;
+	align-items: center;
+	font-family: 'Gulzar', serif;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-color:black;
+}
+
+/* Modal Content/Box */
+.modal-content {
+	background-color: #fefefe;
+	margin: 5% auto 15% auto;
+	/* 5% from the top, 15% from the bottom and centered */
+	border: 1px solid #888;
+	width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+	border: 1px solid #f1f1f1;
+	margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+	position: absolute;
+	right: 35px;
+	top: 15px;
+	font-size: 40px;
+	font-weight: bold;
+	color: #f1f1f1;
+}
+
+.close:hover, .close:focus {
+	color: #f44336;
+	cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+	.cancelbtn, .signupbtn {
+		width: 100%;
+	}
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+	font-family: 'Gulzar', serif;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	font-color: white;
+	background-color: #f9f9f9;
+	min-width: 100px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	padding: 12px 16px;
+	z-index: 1;
+	font-family: 'Gulzar', serif;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+	background-color: rgb(64, 128, 128);
+}
